@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign 2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="root">
+   
+    </div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+         let element = React.createElement('div', { class: "head" },
+         React.createElement('h1', { class: "front" }, 'Learn Web Development'),
+         React.createElement('p' ,{class:"context"},'The MDN Web Docs website is a comprehensive resource for web developers, providing documentation, guides, and tutorials on a wide range of web technologies. You can find information on HTML, CSS, JavaScript, web APIs, and more. The website is maintained by Mozilla, the organization behind the Firefox web browser, but the content is not limited to Firefox-specific information and is generally applicable to web development across different browsers.'),
+         React.createElement('div',{class:"div_a"}, React.createElement('p', {class:"context"},'You can access the MDN Web Docs at the following URL:'),React.createElement('a',{href:'https://developer.mozilla.org/'},'https://developer.mozilla.org/')
+         ),
+         React.createElement('p', {class:"context"},'Here are some key sections and topics you can explore on the MDN Web Docs website:'),
+
+         React.createElement('ol', {type:'order'}, 
+         React.createElement('li',{class:"li_tag"},
+         React.createElement('h1',{class:'text'},'HTML:'),
+         React.createElement('p',{class:'text'},' Information about HTML elements, attributes, and usage.')
+         ),
+         React.createElement('li',{class:"li_tag"},
+         React.createElement('h1',{class:'text'},'CSS:'),
+         React.createElement('p',{class:'text'},'Guides and references for Cascading Style Sheets.') 
+         )
+         ,
+         React.createElement('li',{class:"li_tag"},
+         React.createElement('h1',{class:'text'},'Java Scripts'),
+         React.createElement('p',{class:'text'},'Documentation and guides for JavaScript, including the latest ECMAScript features.') 
+         )
+         ,
+         React.createElement('li',{class:"li_tag"},
+         React.createElement('h1',{class:'text'},'Web APIS'),
+         React.createElement('p',{class:'text'},' Information about browser APIs such as the DOM, Fetch API, and more.') 
+         )
+         ,
+         React.createElement('li',{class:"li_tag"},
+         React.createElement('h1',{class:'text'},'Web Developments Guides'),
+         React.createElement('p',{class:'text'},'Tutorials and guides on various web development topics.') 
+         ),
+         React.createElement('li',{class:"li_tag"},
+         React.createElement('h1',{class:'text'},'MDN Learning Area:'),
+         React.createElement('p',{class:'text'},' Interactive tutorials for beginners and intermediate web developers.') 
+         )
+         ),
+         React.createElement('div', null,
+         React.createElement('p',{class:'last_tag'},'The MDN Web Docs is a valuable resource for both beginners and experienced developers looking for accurate and up-to-date information on web technologies.')
+         ))
+      ReactDOM.render(element, document.getElementById('root'));
+    </script>
+</body>
+</html>

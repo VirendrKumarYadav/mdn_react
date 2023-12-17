@@ -1,0 +1,35 @@
+#root{
+    margin: 5rem;
+    cursor: pointer;
+}
+.head p{
+ text-align: start;
+ font-size: larger;
+}
+.front{
+    color: rgb(35, 120, 92);
+    cursor: pointer;
+    text-shadow: 2px 2px 2px rgb(47, 15, 15);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6rem;
+}
+.li_tag>h1{
+    color: rgb(35, 120, 92);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div_a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+
+}
+ol{
+    list-style: none;
+}
+.last_tag{
+    margin-top: 10rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
